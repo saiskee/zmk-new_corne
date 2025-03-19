@@ -5,7 +5,7 @@
 *
 */
 
-#include "eyelash_corne.dtsi"
+#include "eyelash_corne_tp.dtsi"
 
 &left_encoder {
     status = "okay";

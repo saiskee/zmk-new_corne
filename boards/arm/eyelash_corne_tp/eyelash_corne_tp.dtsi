@@ -10,11 +10,11 @@
 #include <dt-bindings/led/led.h>
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "eyelash_corne-layouts.dtsi"
+#include "eyelash_corne_tp-layouts.dtsi"
 
 / {
-    model = "eyelash_corne";
-    compatible = "eyelashperipherals,eyelash_corne";
+    model = "eyelash_corne_tp";
+    compatible = "eyelashperipherals,eyelash_corne_tp";
 
     chosen {
         zephyr,code-partition = &code_partition;
