@@ -16,10 +16,10 @@ include:
     #snippet: zmk-usb-logging
   - board: eyelash_corne_tp_left
     shield: nice_view
-    #snippet: zmk-usb-logging    # Uncomment to log over USB.
+    snippet: zmk-usb-logging    # Uncomment to log over USB.
   - board: eyelash_corne_tp_right
     shield: nice_view
-    #snippet: zmk-usb-logging
+    snippet: zmk-usb-logging
   - board: eyelash_corne_tp_left
     shield: nice_view
     snippet: studio-rpc-usb-uart
