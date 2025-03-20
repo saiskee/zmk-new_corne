@@ -6,7 +6,7 @@
 if BOARD_EYELASH_CORNE_TP_RIGHT # Right side is central side
 
 config ZMK_KEYBOARD_NAME
-    default "Eyelash Corne"
+    default "Eyelash Corne TP"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
