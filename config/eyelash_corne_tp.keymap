@@ -105,10 +105,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3     &kp N4  &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7            &kp N8             &kp N9     &kp N0          &trans
-&trans  &kp GRAVE        &kp MINUS       &kp EQUAL  &none   &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI   &kp SQT         &trans
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans     &trans  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &kp COMMA         &kp PERIOD         &kp SLASH  &kp LEFT_SHIFT  &trans
-                                         &trans     &trans  &trans                                                                          &trans           &kp BACKSPACE     &trans
+&trans  &kp N1           &kp N2          &kp N3     &kp N4  &kp N5                                         &kp UP                     &kp N6           &kp N7            &kp N8             &kp N9     &kp N0          &trans
+&trans  &kp GRAVE        &kp MINUS       &kp EQUAL  &none   &none                          &kp LEFT        &kp RIGHT_ALT  &kp RIGHT  &kp LEFT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI   &kp SQT         &trans
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans     &trans  &rgb_ug RGB_EFF  &kp C_MUTE                    &kp DOWN                   &rgb_ug RGB_EFR  &kp COMMA         &kp PERIOD         &kp SLASH  &kp LEFT_SHIFT  &trans
+                                         &trans     &trans  &trans                                                                    &trans           &kp BACKSPACE     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -117,9 +117,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &kp UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &bt BT_CLR    &kp RIGHT_ALT &kp RIGHT_ALT  &kp RIGHT_ALT  &kp RIGHT_ALT             &kp LEFT  &kp RIGHT_ALT  &kp RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &kp RIGHT_ALT   &trans                    &kp DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
@@ -129,9 +129,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+&trans  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                          &kp UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
+&trans          &trans      &kp RIGHT_ALT  &kp RIGHT_ALT    &kp RIGHT_ALT  &kp RIGHT_ALT                &kp LEFT  &kp RIGHT_ALT  &kp RIGHT  &bootloader  &kp RIGHT_ALT  &kp RIGHT_ALT    &kp RIGHT_ALT   &kp PRINTSCREEN  &kp F12
+&trans          &sys_reset  &trans     &bootloader  &trans     &kp RIGHT_ALT  &kp C_MUTE                    &kp DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
