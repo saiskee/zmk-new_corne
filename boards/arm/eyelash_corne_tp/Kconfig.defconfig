@@ -3,7 +3,10 @@
 # SPDX-License-Identifier: MIT
 #
 
-if BOARD_EYELASH_CORNE_TP_RIGHT # Right side is central side
+# We want to make the right side, which has the trackpoint
+# the central side
+
+if BOARD_EYELASH_CORNE_TP_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "KeeCorneTp"
@@ -13,6 +16,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif # BOARD_EYELASH_CORNE_TP_RIGHT
 
+# Options that should be enabled on both sides
 if BOARD_EYELASH_CORNE_TP_LEFT || BOARD_EYELASH_CORNE_TP_RIGHT
 
 config BOARD
