@@ -23,7 +23,7 @@ CONFIG_PINCTRL=y
 CONFIG_GPIO=y
 
 # Enable SPI
-CONFIG_SPI=y
+CONFIG_SPI=n
 
 # Enable writing to flash
 CONFIG_USE_DT_CODE_PARTITION=y
