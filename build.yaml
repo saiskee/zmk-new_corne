@@ -18,7 +18,7 @@ include:
     shield: nice_view
     # snippet: zmk-usb-logging    # Uncomment to log over USB.
   - board: eyelash_corne_tp_right
-    # shield: none
+    shield: none
     # snippet: zmk-usb-logging
   # - board: eyelash_corne_tp_left
   #   shield: nice_view
