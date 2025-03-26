@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 #
 
-if BOARD_EYELASH_CORNE_RIGHT
+if BOARD_EYELASH_CORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Eyelash Corne"
