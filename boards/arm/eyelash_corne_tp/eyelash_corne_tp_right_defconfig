@@ -22,9 +22,6 @@ CONFIG_PINCTRL=y
 # enable GPIO
 CONFIG_GPIO=y
 
-# Enable SPI
-CONFIG_SPI=y
-
 # Enable writing to flash
 CONFIG_USE_DT_CODE_PARTITION=y
 CONFIG_BUILD_OUTPUT_UF2=y
