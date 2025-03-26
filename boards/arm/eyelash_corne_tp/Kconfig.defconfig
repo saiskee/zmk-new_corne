@@ -6,7 +6,7 @@
 # We want to make the right side, which has the trackpoint
 # the central side
 
-if BOARD_EYELASH_CORNE_TP_RIGHT
+if BOARD_EYELASH_CORNE_TP_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "KeeCorneTp"
