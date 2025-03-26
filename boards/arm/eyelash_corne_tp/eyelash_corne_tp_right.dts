@@ -37,10 +37,10 @@
 // Original: #define MOUSE_PS2_PIN_RST_PRO_MICRO <&pro_micro 3 GPIO_ACTIVE_HIGH>
 
 // Direct GPIO references for PS/2 mouse
-#define MOUSE_PS2_PIN_SCL <&gpio0 10 GPIO_ACTIVE_HIGH> // Equivalent to Pro Micro pin 2
-#define MOUSE_PS2_PIN_SDA <&gpio0 8 GPIO_ACTIVE_HIGH>  // Equivalent to Pro Micro pin 1
-#define MOUSE_PS2_PIN_RST <&gpio0 35 GPIO_ACTIVE_HIGH> // Equivalent to Pro Micro pin 3
-#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 0, 8)>
+#define MOUSE_PS2_PIN_SCL <&gpio0 17 GPIO_ACTIVE_HIGH> // Equivalent to Pro Micro pin 2
+#define MOUSE_PS2_PIN_SDA <&gpio0 6 GPIO_ACTIVE_HIGH>  // Equivalent to Pro Micro pin 1
+#define MOUSE_PS2_PIN_RST <&gpio0 20 GPIO_ACTIVE_HIGH> // Equivalent to Pro Micro pin 3
+#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 0, 6)>
 #define MOUSE_PS2_UART_BAUD_RATE <14400>
 #define MOUSE_PS2_PIN_UNEXPOSED_TX <NRF_PSEL(UART_TX, 0, 27)>
 #define MOUSE_PS2_PIN_UNEXPOSED_RX <NRF_PSEL(UART_RX, 0, 28)>
