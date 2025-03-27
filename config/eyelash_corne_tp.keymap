@@ -37,10 +37,17 @@
     acceleration-exponent = <1>;
 };
 
-&mmv {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <1>;
-    trigger-period-ms = <16>;
+&mmv_input_listener {
+
+
+  mac_scroller {
+    layers = <1>;
+    input-processors
+      = <&zip_xy_scaler 1 32>
+      , <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT> /* natural scroll */
+      , <&zip_xy_to_scroll_mapper>
+      ;
+  };
 };
 
 / {
@@ -119,7 +126,7 @@
 &kp TAB    &kp A             &kp S  &kp D  &kp F  &kp G                   &kp LEFT  &kp RIGHT_ALT  &kp RIGHT  &kp H      &kp J          &kp K          &kp L    &kp SQT                &kp ENTER
 &kp LCTRL  &hm LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B     &kp C_MUTE              &kp DOWN                  &kp N      &kp M          &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
                                     &td1   &mo 1  &kp LGUI                                                    &kp SPACE  &kp BACKSPACE  &kp RIGHT_ALT
-            >; 
+            >;
             sensor-bindings = <&scroll_encoder>;
         };
 
