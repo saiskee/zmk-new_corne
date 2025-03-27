@@ -136,7 +136,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                            &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans             &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                                             &mkp LCLK  &mkp MCLK  &mkp RCLK
+                        &trans  &trans  &trans                                                             &mkp LCLK       &mkp RCLK  &mkp RCLK
             >;
 
             sensor-bindings = <&scroll_encoder>;
