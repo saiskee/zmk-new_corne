@@ -14,8 +14,6 @@
 
 // &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
-&mouse_ps2_input_listener { input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>}
-
 &msc {
     time-to-max-speed-ms = <50>;       // 300
     acceleration-exponent = <1>;
