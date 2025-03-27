@@ -30,9 +30,9 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-#
+#endif
 
-endif: &msc {
+&msc {
     time-to-max-speed-ms = <50>;       // 300
     acceleration-exponent = <1>;
 };
