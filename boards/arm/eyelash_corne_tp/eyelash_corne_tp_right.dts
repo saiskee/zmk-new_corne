@@ -350,7 +350,7 @@
         status = "disabled";
 
         device = <&mouse_ps2>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>, <&zip_xy_scaler 4 1>, <&zip_temp_layer 2 250>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>, <&zip_xy_scaler 15 4>;
 
         mac_scroller {
             layers = <1>;

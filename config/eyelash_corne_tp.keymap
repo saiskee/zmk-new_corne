@@ -133,23 +133,14 @@
         mouse_temp_layer {
             display-name = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                            &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans             &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                                             &mkp LCLK       &mkp RCLK  &mkp RCLK
+&trans  &trans  &trans  &trans          &kp UP_ARROW    &trans                            &mmv MOVE_UP                          &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW             &mmv MOVE_LEFT  &mkp LCLK  &mmv MOVE_RIGHT  &trans     &trans     &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans          &trans  &trans                    &mmv MOVE_DOWN                        &trans     &trans     &trans  &trans  &trans  &trans
+                        &trans          &trans          &trans                                                                  &mkp LCLK  &mkp RCLK  &mkp RCLK
             >;
 
             sensor-bindings = <&scroll_encoder>;
         };
 
-        func_layer {
-            display-name = "FUNC";
-            bindings = <
-&none  &kp F1          &msc SCRL_LEFT  &kp UP_ARROW    &msc SCRL_RIGHT  &bt BT_SEL 0      &none       &msc SCRL_UP    &mmv MOVE_UP     &msc SCRL_DOWN   &kp F10  &none
-&none  &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_SEL 1      &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none    &none
-&none  &kp LEFT_SHIFT  &trans          &trans          &trans           &bt BT_CLR_ALL    &kp C_MUTE  &kp C_VOL_DN    &kp C_VOLUME_UP  &trans           &trans   &none
-                                       &trans          &kp LEFT_ALT     &kp LGUI          &mkp LCLK   &mkp RCLK       &trans
-            >;
-        };
     };
 };
