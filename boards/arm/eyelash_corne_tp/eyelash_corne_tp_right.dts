@@ -353,7 +353,7 @@
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>, <&zip_xy_scaler 15 4>;
 
         mac_scroller {
-            layers = <1>;
+            layers = <2>;
             input-processors
               = <&zip_xy_scaler 1 32>
               , <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>
