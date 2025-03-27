@@ -115,7 +115,7 @@
 &kp LCTRL  &hm LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B     &kp C_MUTE              &kp DOWN                  &kp N      &kp M          &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
                                     &td1   &mo 1  &kp LGUI                                                    &kp SPACE  &kp BACKSPACE  &kp RIGHT_ALT
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         lower_layer {
