@@ -136,7 +136,7 @@
 &trans  &trans          &trans          &trans          &kp UP_ARROW    &trans                            &mmv MOVE_UP                &trans     &trans     &trans  &trans  &trans  &trans
 &trans  &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW &trans            &mmv MOVE_LEFT  &mkp LCLK  &mmv MOVE_RIGHT  &trans     &trans     &trans  &trans  &trans  &trans
 &trans  &trans          &trans          &trans          &trans          &trans  &trans                    &mmv MOVE_DOWN              &trans     &trans     &trans  &trans  &trans  &trans
-                        &trans          &trans          &trans                                                                        &mkp LCLK  &mkp RCLK  &mkp RCLK
+                        &trans          &kp LEFT_ALT    &trans                                                                        &mkp LCLK  &mkp RCLK  &mkp RCLK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
