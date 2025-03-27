@@ -143,7 +143,7 @@
         };
 
         func_layer {
-            display-name = "FUNC"
+            display-name = "FUNC";
             bindings = <
 &none  &kp F1          &msc SCRL_LEFT  &kp UP_ARROW    &msc SCRL_RIGHT  &bt BT_SEL 0      &none       &msc SCRL_UP    &mmv MOVE_UP     &msc SCRL_DOWN   &kp F10  &none
 &none  &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_SEL 1      &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none    &none
